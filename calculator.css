@@ -1,0 +1,63 @@
+button {
+	width:70px;
+	height:70px;
+}
+
+
+
+.sci_hidden{
+	display:none;
+}
+
+button:hover{
+	transition: all .3s ease;
+	 transform: scale(1.1);
+	 border:green 2px solid;
+}
+.excep{
+	width:70px;
+	height:65px;
+}
+
+#deg_excep{
+	width:70px;
+	height:65px;
+	display:none;
+}
+
+#rad_excep{
+	width:70px;
+	height:65px;
+}
+
+
+
+input {
+	border: 2px red solid;
+	padding: 10px
+}
+
+input:hover{
+	transition: all .3s ease;
+	 transform: scale(1.1);
+	 border:green 2px solid;
+}
+
+#display{
+	width:185px;
+	height:40px;
+}
+
+.bottom {
+	width:115px;
+	height:40px;
+}
+
+body
+{
+	padding:100px;
+	text-align: center;
+	background: rgb(0,36,7);
+	background: linear-gradient(90deg, rgba(0,36,7,1) 0%, rgba(9,121,49,1) 16%, rgba(9,122,50,1) 50%, rgba(6,166,128,1) 73%, rgba(0,212,255,1) 100%);
+}
+
